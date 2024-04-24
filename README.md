@@ -1,4 +1,5 @@
 **Content Writing**
+
 **Exploring the Weapon System Architecture for a First-Person Shooter Game.**
 
 Hello, everyone! Are you prepared to explore the exciting world of weapon systems in first-person shooter games? Let's work together to create an architecture that will make your game's weapon system extraordinary.
