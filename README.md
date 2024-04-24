@@ -1,5 +1,7 @@
 ****Problem****
+
 In the second part of the assignment, I encountered a significant challenge caused by a circular dependency between the PlayerView and PlayerController classes. Circular dependencies occur when two or more modules depend on each other, directly or indirectly, leading to compilation errors and making code maintenance difficult.
+
 By removing the #include PlayerController.h statement from PlayerView.h and replacing it with a forward declaration of PlayerController, the code compiled successfully. This approach not only resolved the compilation error but also improved code maintainability by breaking the tight coupling between the two classes.
 
 Addressing circular dependencies is crucial for ensuring code modularity, scalability, and ease of maintenance in software development projects. By employing techniques like forward declaration, developers can effectively manage dependencies and build robust, flexible systems.
