@@ -12,12 +12,16 @@ Player class manages the player's actions and is equipped with weaponry.
 
 **Attributes**
 equippedPrimaryGuns: Array storing two primary guns.
+
 equippedSecondaryGun: Pointer to the secondary gun.
+
 currentAmmo: Tracks the current ammo count.
+
 totalAmmo: Total ammo available for all guns.
 
 Responsibilities:
 Equip and switch weapons.
+
 Use the attached weapon.
 
 **2. Weapon Class.**
@@ -25,12 +29,16 @@ The weapon class describes the features and how the weapon is going to behave in
 
 Attributes:
 ammo: Current ammo count.
+
 magazineSize: Maximum ammo capacity per magazine.
+
 fireRate: Rate of fire.
+
 reloadTime: Duration taken to reload the weapon.
 
 Responsibilities:
 Manage the ammo count and reloading
+
 Control the firing rate
 
 **3. UI Class.**
@@ -38,11 +46,15 @@ The UI class manages the heads-up display (HUD), it is a class that helps in get
 
 Attributes
 equippedWeaponsHUD: Array displaying equipped weapons.
+
 currentAmmoHUD: Displays current ammo count.
+
 totalAmmoHUD: Displays total ammo count.
+
 
 Responsibilities:
 Display the currently equipped weapons.
+
 Show current and total ammunition.
 
 Now, let's observe how these classes interact with one another.
